@@ -16,7 +16,7 @@ const WinOrLoseCard = props => {
         <p>Best Score</p>
         <p className="score-num">{score}/12</p>
 
-        <button type="button" onClick={clickingPlayAgain}>
+        <button type="button" className="play-again-btn" onClick={clickingPlayAgain}>
           Play Again
         </button>
       </div>
