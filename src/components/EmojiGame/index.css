@@ -1,0 +1,72 @@
+/* Write your code here. */
+.bg {
+  background-image: linear-gradient(to left, #fbc7d4, #9796f0);
+  min-height: 100vh;
+}
+.content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.nav-container {
+  background-color: #9796f0;
+  display: flex;
+  justify-content: space-around;
+  height: 7vh;
+  color: white;
+}
+.score-ul-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.score-li-cont {
+  list-style-type: none;
+  margin-right: 10px;
+}
+.emoji-ul-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+@media screen and (max-width: 767px) {
+  .emoji-ul-cont {
+    width: 50vh;
+  }
+  .emoji-card-cont {
+    width: 80%;
+  }
+}
+.emoji-card-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+}
+.game-over-card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 600px;
+
+  margin-top: 20px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #ffffff30;
+  background-color: #ffffff33;
+  padding: 10px;
+  margin: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .game-over-card-container {
+    width: 300px;
+  }
+}
+.balloon-img-size {
+  height: 40vh;
+}

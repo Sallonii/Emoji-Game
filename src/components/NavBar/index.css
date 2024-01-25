@@ -1,0 +1,20 @@
+/* Write your code here. */
+.nav-container {
+  background-color: #9796f0;
+  display: flex;
+  justify-content: space-around;
+  height: 7vh;
+  color: white;
+}
+.score-ul-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.score-li-cont {
+  list-style-type: none;
+  margin-right: 10px;
+}
+.d-none {
+  display: none;
+}

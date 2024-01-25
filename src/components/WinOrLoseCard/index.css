@@ -1,0 +1,31 @@
+/* Write your code here. */
+.game-over-card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 600px;
+
+  margin-top: 20px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #ffffff30;
+  background-color: #ffffff33;
+  padding: 10px;
+  margin: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .game-over-card-container {
+    width: 300px;
+  }
+}
+.balloon-img-size {
+  height: 40vh;
+}
+.score-num {
+  color: #6a59ff;
+  font-size: 30px;
+  font-weight: 700;
+}
